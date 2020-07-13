@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;0,700;1,400&family=Open+Sans:wght@400;600&display=swap');
+@import "custom";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Makes the SVG resize for IE10
+.resize-svg-for-ie {
+	width: 100% \9;
+}
+
+form {
+	color: #717171;
+}
+
+hr {
+	max-width: 300px;
+}
+
+/* Links */
+.navbar a {
+	font-weight: 600;
+	font-style: italic;
+	color: #8E8E8E;
+	font-size: 0.875rem
+}
+
+.navbar a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+footer a {
+	color: #9BA5AB;
+	font-size: 16px;
+}
+
+footer a:hover {
+	color: white;
+	font-weight: 600;
+}
+/* End Links */
+
+footer .disclaimer-text {
+	font-size: 12px;
+}
+
+.docu-logo {
+	margin: 6px 0 6px 2px;
+	width: 199.5px;
+	height: 28.45px;
+}
+
+.docu-logo-white {
+	width: 284.33px;
+	height: 40.55px;
+}
+
+.docu-jumbo {
+	background-image: url("../images/DL_hero_PC-screen_edit.png");
+	background-size: cover;
+	background-position: -200px center;
+	background-repeat: no-repeat;
+	height: 515px;	
+}
+
+.docu-jumbo-contact {
+	background-image: url("../images/Help_Contact_Hero_LRG_2100_755px.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 515px;	
+}
+
+.docu-hero-header {
+	margin-left: 30px;
+	margin-right: 45px;
+}
+
+.docu-hero-header-contact {
+
+}
+
+.docu-box {
+	box-shadow: 0px 0px 6px #00000016;
+	margin-top: -142px;
+	margin-bottom: 30px;
+	background-color: #fff;
+
+	h2 {
+		margin-top: 20px;
+	}
+}
+
+.docu-ul {
+	list-style-image: url('../images/list-right-arrow.svg'); 
+	line-height: 38px;
+	margin-top: 16px;
+}
+
+.card {
+	color: $primary;
+
+	p {
+		font-size: 16px;
+	}
+}
+
+
+
+/* Media Queries */
+@include media-breakpoint-up(sm) {
+	.docu-jumbo {
+		background-position: -27px center;
+		height: 530px;	
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+	.docu-logo {
+		margin: 6px 0 6px 32.5px;
+	}
+
+	.docu-jumbo {
+		background-position: center center;	
+	}
+
+	.docu-hero-header {
+		margin-left: 120px;
+	}
+
+	.docu-box {
+		h2 {
+			margin-top: 30px;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+
+	.docu-hero-header {
+		margin-left: 290px;
+	}
+
+	.docu-box {
+		margin-bottom: 110px;
+	}
+}
+
+@include media-breakpoint-up(xl) {
+
+	.docu-jumbo {
+		height: 730px;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+
+	.docu-jumbo {
+
+		background-position: center -200px;
+
+	}
+
+}

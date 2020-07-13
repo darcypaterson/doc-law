@@ -1,0 +1,22 @@
+/* /// My Custom Styles /// */
+$text-color: #333333;
+
+/* /// override Bootstrap variables /// */
+$blue: #23475C;
+$font-family-sans-serif: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$hr-border-width: 2px;
+$hr-border-color: #ccc;
+$hr-margin-y: 20px;
+$font-size-base: 1.125rem;
+
+/* /// variables that depend on other Bootstrap variables /// */
+$body-color: $text-color;
+
+/* /// the map for new colors /// */
+$theme-colors: (
+
+	"tertiary": #6B6B6B
+
+	);
+
